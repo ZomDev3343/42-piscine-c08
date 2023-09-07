@@ -6,7 +6,7 @@
 /*   By: truello <thomasdelan2@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/06 14:28:08 by truello           #+#    #+#             */
-/*   Updated: 2023/09/06 19:42:42 by truello          ###   ########.fr       */
+/*   Updated: 2023/09/07 10:43:10 by truello          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,6 +48,7 @@ struct s_stock_str	*ft_strs_to_tab(int ac, char **av)
 		r[i].size = ft_strlen(av[i]);
 		r[i].str = av[i];
 		r[i].copy = ft_strdup(r[i].str);
+		i++;
 	}
 	return (r);
 }

@@ -6,7 +6,7 @@
 /*   By: truello <thomasdelan2@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/06 16:59:53 by truello           #+#    #+#             */
-/*   Updated: 2023/09/06 19:55:31 by truello          ###   ########.fr       */
+/*   Updated: 2023/09/07 10:48:17 by truello          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,7 +57,7 @@ void	ft_show_tab(struct s_stock_str *par)
 	int	i;
 
 	i = 0;
-	while (par[i].str[0])
+	while (par[i].str)
 	{
 		ft_putstr(par[i].str);
 		ft_putnbr(par[i].size);
@@ -66,11 +66,10 @@ void	ft_show_tab(struct s_stock_str *par)
 		i++;
 	}
 }
-
-int	main(int argc, char **argv)
+/*int	main(int argc, char **argv)
 {
 	t_stock_str *par = ft_strs_to_tab(argc, argv);
 	ft_show_tab(par);
 	free(par);
 	return (0);
-}
+}*/
