@@ -6,7 +6,7 @@
 /*   By: truello <thomasdelan2@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/06 13:37:48 by truello           #+#    #+#             */
-/*   Updated: 2023/09/07 10:54:20 by truello          ###   ########.fr       */
+/*   Updated: 2023/09/13 15:38:13 by truello          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,5 +25,6 @@
 typedef int	t_bool;
 
 void	ft_putstr(char *str);
+t_bool	ft_is_even(int nbr);
 
 #endif
